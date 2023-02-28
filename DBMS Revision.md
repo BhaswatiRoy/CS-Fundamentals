@@ -45,10 +45,10 @@ vertical partitioning - divide tables on basis of cols using primary or foreign 
 ## Normalization 
 
 removal of data redundancy 
-1NF - no multi valued attributes(C1,C2)
-2NF - 1NF + no partial depencies (id, course fee, course no present & course fee is dependent on course no which is non prime)
-3NF - 2NF + no transitive dependency (id -> state -> country)
-BCNF - 3NF + LHS is PK (A -> B then A is primary key)
+- 1NF - no multi valued attributes(C1,C2)
+- 2NF - 1NF + no partial depencies (id, course fee, course no present & course fee is dependent on course no which is non prime)
+- 3NF - 2NF + no transitive dependency (id -> state -> country)
+- BCNF - 3NF + LHS is PK (A -> B then A is primary key)
 
 ## Denormalization 
 
@@ -60,6 +60,7 @@ BCNF - 3NF + LHS is PK (A -> B then A is primary key)
 ## Functional Dependency 
 
 variables are functionally dependent
+
 X -> Y where X=determinant, Y=dependent
 
 ## ER Diagram
