@@ -25,7 +25,7 @@
 
 ## Dynamic Initialization
 
-dynamic initialization - obj initialized during runtime - one by constructors
+obj initialized during runtime - done by constructors
 
 ## Copy Constructors
 
