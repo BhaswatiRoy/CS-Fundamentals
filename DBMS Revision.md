@@ -18,9 +18,9 @@ TCL - COMMIT, ROLLBACK
 
 ## Horizontal Scaling vs Vertical Scaling
 
-Horizontal - make servers powerful - network calls - one machine fails then others present - no limit
+Horizontal (scaling out) - make servers powerful - network calls - one machine fails then no redirections
 
-Vertical - add more servers - interprocess communications - one machine fails then no redirections - limit
+Vertical (scaling up) - add more servers - interprocess communications - one machine fails then others present
 
 ## Horizontal Partitioning vs Vertical Partitioning
 
