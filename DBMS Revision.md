@@ -99,16 +99,22 @@ check which schedules are serializable means they can be arranged in a serial or
 
 protocols to smoothly execute concurrent db processes and make sure recoverability & serializability is maintained
 
-1. lock based - 
+1. Lock Based - 
+
 A. Shared & Exclusive locks -
 shared lock (locked transaction is allowed to read only) & exclusive     lock (locked transaction is allowed to read & write)
+
 B. 2 Phase Locking Protocol -
 growing (locks acquired) & shrinking (locks released)
 types - strict 2pl (2pl+all exclusive locks should hold until commit/abort), rigorous 2pl (2pl+all shared & exclusive locks should hold until commit/abort)
 
 2. Timestamp Ordering Protocol -
+
 latest transactions get executed first
-A. Read TS    B. Write TS
+
+A. Read TS    
+
+B. Write TS
 
 ## Strong Entity vs Weak Entity & Entity Set
 
