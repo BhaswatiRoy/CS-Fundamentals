@@ -70,10 +70,15 @@ can't be accessed outside class without help of friend function
 ## Polymorphism 
 
 ability of a method to have more than one forms
+
 1. Compile time/Static polymorphism 
+
     A. Operator Overloading = operators have diff meaning applied to user defined data types
+    
     B. Method Overloading = multiple func have same name but diff parameters 
+    
 2. Runtime Polymorphism
+
     A. Method Overriding = multiple definitions of same method
 
 ## Encapsulation 
