@@ -25,7 +25,7 @@ threads - light weight tasks, no system calls, no copy only extra threads, conte
 
 ## Virtual Memory
 
-- To scale our systems we use an extra memory of a hard disk which enables programs to run which are greater than physical memory 
+- To scale our systems we use an extra memory of a hard disk which enables programs to run which are greater than physical memory creating an illusion of extra space.
 - Concept used in virtualization and cloud computing
 
 ## Thrashing
@@ -34,7 +34,7 @@ Degree of multiprogramming increased but entire memory is not utilized properly
 
 ## RAID
 
-Redundant array of dependent disks - making use of multiple disks to improve performance
+Redundant array of independent disks - making use of multiple disks to improve performance
 
 ## Deadlocks
 
@@ -58,6 +58,10 @@ Has space in memory but can't allocate processes
 Data is temporarily held in memory for some work. Eg - printing
 
 ## Semaphore & Mutex
+
+Semaphores = integer value used in mutual exclusion manner by different concurrent processes to achieve synchronization.
+- Counting Semaphore - value range is -infinity to +infinity
+- Binary Semaphore - value range is -1 to +1
 
 ## Belady's Anomaly
 
