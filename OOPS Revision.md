@@ -1,7 +1,7 @@
 ## Structure vs Class
 
-structure - members always public, methods can't be added within it
-class - has access specifier, methods can be added within it
+- structure - members always public, methods can't be added within it
+- class - has access specifier, methods can be added within it
 
 ## Static Keywords
 
