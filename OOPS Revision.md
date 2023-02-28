@@ -65,7 +65,7 @@ obj initialized during runtime - done by constructors
 
 ## Protected
 
-can't be accessed outside class without help of friend class
+can't be accessed outside class without help of friend function
 
 ## Polymorphism 
 
