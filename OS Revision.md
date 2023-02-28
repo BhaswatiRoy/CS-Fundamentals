@@ -8,11 +8,9 @@
 
 ## Kernel vs Monolithic Kernel vs Sockets
 
-- Batch OS - batches of similar jobs are created and executed one by one
-- Multitasking OS - specific time is given to any process
-- Distributed OS - machines connected via networks and located in diff geographical locs 
-- Real time OS - live working and time is imp factor - hard & soft types
-- Clustered OS - similar to distributed but all machines under same cluster
+- Kernel = heart of OS, helps us to directly communicate with the OS and perform tasks in kernel modes by help of system calls
+- Monolithic Kernel = all OS tasks are performed in kernel mode only
+- Sockets = serves as endpoints in networks to perform tasks like sending & receiving data all across the network
 
 ## Process vs Threads
 
